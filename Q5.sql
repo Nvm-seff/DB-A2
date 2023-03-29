@@ -1,0 +1,5 @@
+/*Q5*/
+SELECT AVG(Salary) AS AvgSalaryNightShift
+FROM EMPLOYEE
+WHERE Shift BETWEEN '22:00:00' AND '06:00:00'
+
